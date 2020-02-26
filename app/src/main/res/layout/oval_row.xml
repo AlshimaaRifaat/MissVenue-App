@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:flexWrap="wrap"
+        app:justifyContent="flex_start">
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_rounded_grey_outline"
+            android:onClick="btToggleClick"
+            android:text="Small"
+            android:textAllCaps="false"
+            android:textColor="#999999" />
+    </com.google.android.flexbox.FlexboxLayout>
+
+</LinearLayout>

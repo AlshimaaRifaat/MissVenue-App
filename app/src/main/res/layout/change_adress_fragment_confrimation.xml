@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?><!--<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:background="@android:color/white"--><!--android:fillViewport="true"--><!--android:fitsSystemWindows="true"--><!--android:scrollbars="none">-->
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:background="@android:color/white"
+    android:elevation="16dp"
+    app:cardCornerRadius="30dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/sss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:layout_marginBottom="@dimen/_12sdp"
+            android:text="@string/Add_address"
+            android:textAlignment="center"
+            android:textColor="#231F20"
+
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:id="@+id/sssssSS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sss"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true">
+
+            <Button
+                android:id="@+id/Shipping"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="#E5E5E5"
+                android:gravity="center"
+                android:text="@string/Shipping"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/Billing"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="#F6F6F6"
+                android:gravity="center"
+                android:text="@string/Billing"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/my_address_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/add_addressNew"
+            android:layout_below="@+id/sssssSS"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/my_address_recycler_Billing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/add_addressNew"
+            android:layout_below="@+id/sssssSS"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:visibility="gone" />
+
+
+        <TextView
+            android:id="@+id/add_addressNew"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/add_address"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="8dp"
+            android:drawableStart="@drawable/ic_add_perpler_24dp"
+            android:padding="10dp"
+            android:text="@string/add_new_address"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/add_address"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_above="@+id/aaaa"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="60dp"
+            android:background="@drawable/btn_rounded_dark_outline"
+            android:text="@string/Add"
+            android:textAllCaps="true"
+            android:textColor="#333333"
+            android:textSize="17sp" />
+
+        <View
+            android:id="@+id/aaaa"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_14sdp"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

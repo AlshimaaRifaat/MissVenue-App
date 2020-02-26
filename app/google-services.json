@@ -1,0 +1,147 @@
+{
+  "project_info": {
+    "project_number": "441942475368",
+    "firebase_url": "https://miss-venue.firebaseio.com",
+    "project_id": "miss-venue",
+    "storage_bucket": "miss-venue.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441942475368:android:0adbbee5ff1de8cb",
+        "android_client_info": {
+          "package_name": "com.ibsvalley.missvenue"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441942475368-qm7j6jcc86qo1avrk0kkri41oit0k7il.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ibsvalley.missvenue",
+            "certificate_hash": "9d0f74e5c12734306e212e62b5e3ac8db09a43a1"
+          }
+        },
+        {
+          "client_id": "441942475368-83f20i208fcbop13ksmlteg86svneeg3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ibsvalley.missvenue",
+            "certificate_hash": "11e496a3bb7b232f48fa0cc64c3b434a097ae0ab"
+          }
+        },
+        {
+          "client_id": "441942475368-4vha9tios1erilk7bj0i5pdvfij7ssfl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ibsvalley.missvenue",
+            "certificate_hash": "95601aef283cfee599c042850fffdd50262c44bf"
+          }
+        },
+        {
+          "client_id": "441942475368-nvuvcseucoplomh5chj55o4sbmcb89vi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ibsvalley.missvenue",
+            "certificate_hash": "78e8b638ae77aa69f06026c6326c46e381f32399"
+          }
+        },
+        {
+          "client_id": "441942475368-fhbflcqvl0ph1mjkcv85kp4d015qdd3i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOrDSi1aFEDYuneyAsQ7y8ymXa0L4xaHY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441942475368-fhbflcqvl0ph1mjkcv85kp4d015qdd3i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "441942475368-svmm7nl0cu5ib3l7q2qt4g3v91ak0roc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Missvenue.Ibs"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441942475368:android:c7486f6039e6a620",
+        "android_client_info": {
+          "package_name": "com.ibsvalleyn.missvenue"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441942475368-u96tmgslom6ubnk5foi2vmhdigqgsf1r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ibsvalleyn.missvenue",
+            "certificate_hash": "2eff9cc147d0d96a896623a77bf7bc91ecaf0ef2"
+          }
+        },
+        {
+          "client_id": "441942475368-k0jtbl9hkl1uu3r66o8m3r3dkfkigq5h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ibsvalleyn.missvenue",
+            "certificate_hash": "9da3d13cba4ca258240f560eb85ca7b05e12f2f5"
+          }
+        },
+        {
+          "client_id": "441942475368-up313mfh1qaa3srulfm1337scarif00f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ibsvalleyn.missvenue",
+            "certificate_hash": "b0761be5a2339d58aff69bbc5e9c74925ef7ea63"
+          }
+        },
+        {
+          "client_id": "441942475368-asijo4r0f7djssinf5fjbhm1sp51fmen.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ibsvalleyn.missvenue",
+            "certificate_hash": "9d0f74e5c12734306e212e62b5e3ac8db09a43a1"
+          }
+        },
+        {
+          "client_id": "441942475368-fhbflcqvl0ph1mjkcv85kp4d015qdd3i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOrDSi1aFEDYuneyAsQ7y8ymXa0L4xaHY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441942475368-fhbflcqvl0ph1mjkcv85kp4d015qdd3i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "441942475368-svmm7nl0cu5ib3l7q2qt4g3v91ak0roc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Missvenue.Ibs"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

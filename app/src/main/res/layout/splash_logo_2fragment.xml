@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.ibsvalleyn.missvenue.activities.SplashScreen"
+    android:id="@+id/linearLayout">
+
+    <ImageView
+        android:id="@+id/logo_white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.155"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:textColor="#9A84CD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:text="Choose language to continue"
+        app:layout_constraintEnd_toEndOf="@+id/logo_white"
+        app:layout_constraintStart_toStartOf="@+id/logo_white"
+        app:layout_constraintTop_toBottomOf="@+id/logo_white" />
+
+    <TextView
+        android:id="@+id/enTv"
+        android:layout_width="296dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_rounded_grey"
+        android:gravity="center"
+        android:text="ENGLISH"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textColor="#DCD5EE"
+        app:layout_constraintEnd_toEndOf="@+id/logo_white"
+        app:layout_constraintStart_toStartOf="@+id/logo_white"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:textSize="16sp"
+        android:layout_width="296dp"
+        android:layout_height="53dp"
+
+        android:id="@+id/arTv"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/btn_rounded_grey"
+        android:gravity="center"
+
+        android:text="ARABIC"
+        android:textAlignment="center"
+        android:textColor="#DCD5EE"
+        app:layout_constraintEnd_toEndOf="@+id/enTv"
+        app:layout_constraintStart_toStartOf="@+id/enTv"
+        app:layout_constraintTop_toBottomOf="@+id/enTv" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

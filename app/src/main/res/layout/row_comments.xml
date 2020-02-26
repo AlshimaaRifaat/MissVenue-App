@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="5dp">
+
+    <TextView
+        android:id="@+id/comments_tvUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user_name"
+        android:textColor="#000" />
+
+    <com.iarcuschin.simpleratingbar.SimpleRatingBar
+        android:id="@+id/infow_window_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginEnd="6dp"
+        app:srb_borderColor="#C1C1C1"
+        app:srb_fillColor="#9185BE"
+        app:srb_isIndicator="true"
+        app:srb_numberOfStars="5"
+        app:srb_rating="4"
+        app:srb_starBackgroundColor="#C1C1C1"
+        app:srb_starBorderWidth="0.5"
+        app:srb_starSize="16dp"
+        app:srb_starsSeparation="0dp"
+        app:srb_stepSize="0.1" />
+
+    <TextView
+        android:id="@+id/comments_tvComment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/comments_tvUserName"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:maxHeight="60dp"
+        android:textColor="#6D000000" />
+
+
+</RelativeLayout>

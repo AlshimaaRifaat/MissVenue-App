@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:background="@android:color/white"
+    android:elevation="16dp"
+    app:cardCornerRadius="30dp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite">
+
+        <TextView
+            android:id="@+id/write_review"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/Write_your_review"
+            android:textColor="@color/colorPrimaryLight"
+            android:textSize="19sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="107dp"
+            android:text="@string/Rate"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="@+id/write_review"
+            app:layout_constraintTop_toBottomOf="@+id/write_review" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="13dp"
+            android:text="4/5"
+            android:visibility="gone"
+            app:layout_constraintStart_toEndOf="@+id/simpleRatingBar"
+            app:layout_constraintTop_toBottomOf="@+id/write_review" />
+
+        <com.iarcuschin.simpleratingbar.SimpleRatingBar
+            android:id="@+id/simpleRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="15dp"
+            app:layout_constraintStart_toEndOf="@+id/rate"
+            app:layout_constraintTop_toBottomOf="@+id/write_review"
+            app:srb_borderColor="#C1C1C1"
+            app:srb_fillColor="#9185BE"
+            app:srb_isIndicator="false"
+            app:srb_numberOfStars="5"
+            app:srb_rating="0"
+            app:srb_starBackgroundColor="#C1C1C1"
+            app:srb_starBorderWidth="0.5"
+            app:srb_starSize="16dp"
+            app:srb_starsSeparation="0dp"
+            app:srb_stepSize="0.1" />
+
+        <EditText
+            android:id="@+id/ET_comment"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="19dp"
+            android:background="@drawable/btn_rounded_grey_outline_white_bg"
+            android:ems="10"
+            android:gravity="top"
+            android:hint="@string/write_some_thing_here"
+            android:inputType="textMultiLine"
+            android:paddingStart="36dp"
+            android:paddingTop="17dp"
+            android:paddingEnd="36dp"
+            android:paddingBottom="17dp"
+            android:textColor="#726D6D"
+            android:textColorHint="#d2d2d2"
+            android:textSize="17dp"
+            app:layout_constraintBottom_toTopOf="@+id/submit_rate"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/rate" />
+
+        <Button
+            android:id="@+id/submit_rate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="53dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="53dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/btn_rounded_dark_outline"
+            android:text="@string/Post"
+            android:textSize="14dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ET_comment" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

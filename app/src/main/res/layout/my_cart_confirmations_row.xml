@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/cart_image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="2dp"
+            android:layout_toStartOf="@+id/plus"
+            android:layout_toEndOf="@+id/cart_image"
+            android:text="@string/Blue_Striped_Top"
+            android:textColor="#666666"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/product_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/product_name"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_toEndOf="@+id/cart_image"
+            android:text="@string/Size"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/product_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/product_name"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="6dp"
+            android:layout_toEndOf="@+id/product_size"
+            android:text="Color : Red"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/product_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/view"
+            android:layout_below="@+id/product_size"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="3dp"
+            android:layout_toEndOf="@+id/cart_image"
+            android:text="3229 SR"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/product_price1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/product_size"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="8dp"
+
+            android:layout_marginBottom="3dp"
+            android:layout_toEndOf="@+id/product_price"
+            android:text="3229 SR"
+            android:textColor="@color/colorGrey"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+
+    <ImageView
+        android:id="@+id/plus"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/plus"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/plus"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="10dp"
+        android:text="Qty:3"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/minus"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:layout_below="@+id/number"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/minus"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/wishlist"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_below="@+id/minus"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/ic_wishlist_remove"
+        android:visibility="invisible" />
+
+    <!--<View-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="1dp"-->
+    <!--android:layout_below="@+id/cart_image"-->
+    <!--android:layout_marginStart="4dp"-->
+    <!--android:layout_marginTop="6dp"-->
+    <!--android:layout_marginEnd="4dp"-->
+    <!--android:background="#BEC0BEBE" />-->
+
+</RelativeLayout>
